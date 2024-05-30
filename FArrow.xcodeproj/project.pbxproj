@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F16ECC2D2C08A377004C41B2 /* FArrowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16ECC2C2C08A377004C41B2 /* FArrowApp.swift */; };
-		F16ECC2F2C08A377004C41B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16ECC2E2C08A377004C41B2 /* ContentView.swift */; };
 		F16ECC312C08A378004C41B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16ECC302C08A378004C41B2 /* Assets.xcassets */; };
 		F16ECC342C08A378004C41B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16ECC332C08A378004C41B2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		F16ECC292C08A377004C41B2 /* FArrow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FArrow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16ECC2C2C08A377004C41B2 /* FArrowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FArrowApp.swift; sourceTree = "<group>"; };
-		F16ECC2E2C08A377004C41B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F16ECC302C08A378004C41B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16ECC332C08A378004C41B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F16ECC352C08A378004C41B2 /* FArrow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FArrow.entitlements; sourceTree = "<group>"; };
@@ -53,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				F16ECC2C2C08A377004C41B2 /* FArrowApp.swift */,
-				F16ECC2E2C08A377004C41B2 /* ContentView.swift */,
 				F16ECC302C08A378004C41B2 /* Assets.xcassets */,
 				F16ECC352C08A378004C41B2 /* FArrow.entitlements */,
 				F16ECC322C08A378004C41B2 /* Preview Content */,
@@ -139,7 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16ECC2F2C08A377004C41B2 /* ContentView.swift in Sources */,
 				F16ECC2D2C08A377004C41B2 /* FArrowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +275,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +304,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
