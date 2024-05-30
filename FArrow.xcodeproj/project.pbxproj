@@ -18,6 +18,7 @@
 		F16ECC302C08A378004C41B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F16ECC332C08A378004C41B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F16ECC352C08A378004C41B2 /* FArrow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FArrow.entitlements; sourceTree = "<group>"; };
+		F16ECC3B2C08C85C004C41B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +51,7 @@
 		F16ECC2B2C08A377004C41B2 /* FArrow */ = {
 			isa = PBXGroup;
 			children = (
+				F16ECC3B2C08C85C004C41B2 /* Info.plist */,
 				F16ECC2C2C08A377004C41B2 /* FArrowApp.swift */,
 				F16ECC302C08A378004C41B2 /* Assets.xcassets */,
 				F16ECC352C08A378004C41B2 /* FArrow.entitlements */,
@@ -275,7 +277,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_FILE = FArrow/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +307,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_FILE = FArrow/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (

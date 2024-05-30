@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "FArrowActiveLogo.png",
+      "filename" : "FArrowNoPermissions.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "FArrowActiveLogo@2x.png",
+      "filename" : "FArrowNoPermissions@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
