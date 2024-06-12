@@ -9,6 +9,8 @@ import SwiftUI
 
 enum KeyCodes: Int64 {
     case F = 3
+    case O = 31
+    case U = 32
     case I = 34
     case L = 37
     case J = 38
@@ -17,19 +19,28 @@ enum KeyCodes: Int64 {
     case RIGHT = 124
     case DOWN = 125
     case UP = 126
+    case PAGEUP = 116
+    case PAGEDOWN = 121
 }
 
 func remapKeys(in event: CGEvent) {
     let keyCode = event.getIntegerValueField(CGEventField.keyboardEventKeycode)
 
-    if keyCode == KeyCodes.J.rawValue {
+    switch keyCode {
+    case KeyCodes.J.rawValue:
         event.setIntegerValueField(CGEventField.keyboardEventKeycode, value: KeyCodes.LEFT.rawValue)
-    } else if keyCode == KeyCodes.L.rawValue {
+    case KeyCodes.L.rawValue:
         event.setIntegerValueField(CGEventField.keyboardEventKeycode, value: KeyCodes.RIGHT.rawValue)
-    } else if keyCode == KeyCodes.K.rawValue {
+    case KeyCodes.K.rawValue:
         event.setIntegerValueField(CGEventField.keyboardEventKeycode, value: KeyCodes.DOWN.rawValue)
-    } else if keyCode == KeyCodes.I.rawValue {
+    case KeyCodes.I.rawValue:
         event.setIntegerValueField(CGEventField.keyboardEventKeycode, value: KeyCodes.UP.rawValue)
+    case KeyCodes.U.rawValue:
+        event.setIntegerValueField(CGEventField.keyboardEventKeycode, value: KeyCodes.PAGEUP.rawValue)
+    case KeyCodes.O.rawValue:
+        event.setIntegerValueField(CGEventField.keyboardEventKeycode, value: KeyCodes.PAGEDOWN.rawValue)
+    default:
+        break
     }
 }
 
